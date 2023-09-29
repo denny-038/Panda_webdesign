@@ -2,7 +2,7 @@ import React from 'react'
 import Panda from '../Pictures/Panda Analytics White 1.png'
 import Sky from '../Pictures/background_sky.png'
 
-const Navbar = () => {
+const Hero = () => {
   return (
     <div className='w-full h-screen flex flex-col relative'
       style={{backgroundImage: `url(${Sky}), linear-gradient(to bottom, #053C5A, #020716)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
@@ -57,4 +57,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Hero

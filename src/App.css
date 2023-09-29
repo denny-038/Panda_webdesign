@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.app-text {
+  font-size: 24px;
+  color: #E1DEDE;
+}
+
+.app-bg {
+  background-image: url(./Pictures/pexels-blaque-x-932638\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

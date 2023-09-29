@@ -5,11 +5,11 @@ import Sky from '../Pictures/background_sky.png'
 const Navbar = () => {
   return (
     <div className='w-full h-screen flex flex-col relative'
-      style={{backgroundImage: `url(${Sky}), linear-gradient(to bottom, #053C5A, #020716)`, backgroundBlendMode: 'overlay'}}>
-      <img src={Panda} alt="/" className= 'md:ml-5 md:mx-0 mx-auto my-5 w-[200px] h-[36px]' />
+      style={{backgroundImage: `url(${Sky}), linear-gradient(to bottom, #053C5A, #020716)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+      <img src={Panda} alt="/" className= 'md:ml-10 md:my-7 md:mx-0 mx-auto my-5 w-[200px] h-[36px]' />
   
       <div className='md:flex hidden absolute top-0 left-0 right-0 justify-center items-center h-[114px] text-white'>
-        <ul className='md:text-3xl flex space-x-10 font-extralight pb-4'>
+        <ul className='md:text-2xl flex space-x-10 font-extralight pb-4'>
           <li className='p-4' style={{ marginRight: '30px'}}>
             <link rel="stylesheet" href="" />About us
           </li>
@@ -19,14 +19,14 @@ const Navbar = () => {
         </ul>
       </div>
     
-    <div className='flex items-center justify-center min-h-screen text-white -mt-40'>
+    <div className='flex items-center justify-center min-h-screen text-white -mt-20'>
     <div className='sm:text-left md:text-center flex flex-col justify-center'>
       <div className='text-[#E1DEDE] md:text-[60px] text-4xl font-semibold md:p-4 p-1'>
         <span>Assist, Change </span>
         <span className='md:inline hidden p-2'>and Create</span>
       </div>
       <p className='md:hidden sm:block text-[#E1DEDE] md:text-[60px] text-4xl font-semibold p-1'>
-        Create
+        And Create
       </p>
       <p className='text-[#E1DEDE] md:text-[60px] text-4xl font-semibold sm:justify-start md:p-4 p-1'>
         the desired digital future
@@ -47,7 +47,7 @@ const Navbar = () => {
         </button>
         </div>
         <button 
-          className='md:hidden w-[130px] h-[35px] font-medium text-[14px] rounded-lg my-3 mx-auto py-1.5 border border-[#b5b2b285]'>
+          className='md:hidden w-[160px] h-[55px] font-medium text-[16px] rounded-lg my-3 mx-auto py-1.5 border border-[#b5b2b285]'>
           Get in Touch
         </button>
       </div>

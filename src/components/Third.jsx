@@ -5,7 +5,7 @@ import Mouse from '../Pictures/Mouse.png'
 
 const Third = () => {
   return (
-    <div className='w-full h-screen flex items-center justify-center'
+    <div id="Contact" className='w-full h-screen flex items-center justify-center'
         style={{ backgroundImage: `url(${sky}), linear-gradient(to top, #053C5A, #020716)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <div className='md:text-6xl text-5xl text-white flex flex-col items-center'>
         <p>Tell us about your</p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Panda from '../Pictures/Panda Analytics White 1.png'
 import Sky from '../Pictures/background_sky.png'
+import { HashLink } from 'react-router-hash-link';
 
 const Hero = () => {
   return (
@@ -8,14 +9,14 @@ const Hero = () => {
       style={{backgroundImage: `url(${Sky}), linear-gradient(to bottom, #053C5A, #020716)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <img src={Panda} alt="/" className= 'md:ml-10 md:my-7 md:mx-0 mx-auto my-5 w-[200px] h-[36px]' />
   
-      <div className='md:flex hidden absolute top-0 left-0 right-0 justify-center items-center h-[114px] text-white'>
-        <ul className='md:text-2xl flex space-x-10 font-extralight pb-4'>
+      <div className='lg:flex hidden absolute top-0 left-0 right-0 justify-center items-center h-[114px] text-white'>
+        <ul className='md:text-xl flex space-x-10 font-extralight pb-4'>
           <li className='p-4' style={{ marginRight: '30px'}}>
-            <link rel="stylesheet" href="" />About us
+            <link rel="stylesheet" href="" /><HashLink smooth to='/#Aboutus' > About Us </HashLink>
           </li>
-          <li className='p-4' style={{ marginRight: '30px'}}>Team</li>
+          <li className='p-4' style={{ marginRight: '30px'}}>Roadmap</li>
           <li className='p-4' style={{ marginRight: '30px'}}>Careers</li>
-          <li className='p-4'>Contact</li>
+          <li className='p-4'><HashLink smooth to='/#Contact' > Contact </HashLink></li>
         </ul>
       </div>
     
@@ -39,16 +40,16 @@ const Hero = () => {
         <button 
           className='md:inline-block hidden bg-[#348AB9] text-[18px] rounded-lg font-medium my-3 mr-5 py-1.5 h-[55px] w-[175px]' 
           style={{ backgroundColor: 'rgba(52, 138, 185, 0.3)' }}>
-          Connect Us
+          <HashLink smooth to='/#Contact' > Contact Us </HashLink>
         </button>
         <button 
           className='md:inline-block hidden w-[175px] h-[55px] text-[18px] rounded-lg my-3 py-1.5 border border-[#b5b2b285]'>
-          Learn More
+          <HashLink smooth to='/#Aboutus' > Learn More </HashLink>
         </button>
         </div>
         <button 
           className='md:hidden w-[160px] h-[55px] font-medium text-[16px] rounded-lg my-3 mx-auto py-1.5 border border-[#b5b2b285]'>
-          Get in Touch
+          <HashLink smooth to='/#Contact' > Get in Touch </HashLink>
         </button>
       </div>
     </div>

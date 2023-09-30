@@ -2,6 +2,17 @@ import React from 'react'
 import Panda from '../Pictures/Panda Analytics White 1.png'
 import Sky from '../Pictures/background_sky.png'
 import { HashLink } from 'react-router-hash-link';
+import Swal from 'sweetalert2';
+
+const handleCareersClick = () => {
+  Swal.fire({
+    icon: 'info', 
+    title: 'No Vacancies',
+    text: 'Sorry, there are no vacancies open currently. Please check back later.',
+    confirmButtonText: 'OK',
+    confirmButtonColor: '#348AB9',
+  });
+};
 
 const Hero = () => {
   return (
@@ -15,7 +26,7 @@ const Hero = () => {
             <link rel="stylesheet" href="" /><HashLink smooth to='/#Aboutus' > About Us </HashLink>
           </li>
           <li className='p-4' style={{ marginRight: '30px'}}><HashLink smooth to='/#Process' > Process </HashLink></li>
-          <li className='p-4' style={{ marginRight: '30px'}}>Careers</li>
+          <li className='p-4' style={{ marginRight: '30px'}}><a onClick={handleCareersClick}>Careers</a></li>
           <li className='p-4'><HashLink smooth to='/#Contact' > Contact </HashLink></li>
         </ul>
       </div>
@@ -27,7 +38,7 @@ const Hero = () => {
         <span className='md:inline hidden p-2'>and Create</span>
       </div>
       <p className='md:hidden sm:block text-[#E1DEDE] md:text-[60px] text-4xl font-semibold p-1'>
-        And Create
+        and Create
       </p>
       <p className='text-[#E1DEDE] md:text-[60px] text-4xl font-semibold sm:justify-start md:p-4 p-1'>
         the desired digital future

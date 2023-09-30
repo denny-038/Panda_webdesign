@@ -45,7 +45,7 @@ const Process = () => {
           <Card
             image={SAAS}
             title="5. Refinement"
-            description="Our commitment doesn't end with implementation. We maintain an ongoing relationship with our clients, continuously monitoring and refining the solutions as needed. We believe in staying agile and responsive to evolving needs, ensuring long-term success and satisfaction."
+            description="We maintain an ongoing relationship with our clients, continuously monitoring and refining the solutions as needed. We believe in staying agile and responsive to evolving needs, ensuring long-term success and satisfaction."
           />
         </div>
       </div>
@@ -57,7 +57,7 @@ export default Process
 
 const Card = ({ title, description }) => {
     return (
-      <div className='bg-[#122A41] lg:w-[250px] md:w-7/8 w-[90%] max-w-[300px] h-[400px] rounded-sm my-3 text-[#E1DEDE] flex flex-col justify-between items-center p-6 mx-auto sm:mx-0' style={{ backgroundImage: 'linear-gradient(to top, #020716, #052232)' }}>
+      <div className='bg-[#122A41] lg:w-[250px] md:w-7/8 w-[90%] max-w-[300px] h-[350px] rounded-sm my-3 text-[#E1DEDE] flex flex-col justify-between items-center p-6 mx-auto sm:mx-0' style={{ backgroundImage: 'linear-gradient(to top, #020716, #052232)' }}>
         <div className='flex flex-col'>
           <span className='flex items-center mb-4'>
             <h1 className='text-xl'>{title}</h1>

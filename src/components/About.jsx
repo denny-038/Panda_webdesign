@@ -6,11 +6,11 @@ import Consultant from '../Pictures/Consultant.png'
 import SAAS from '../Pictures/SAAS.png'
 import Others from '../Pictures/Others.png'
 
-const Second = () => {
+const About = () => {
   return (
     <div id='Aboutus' className='w-full bg-[#020716]'>
       <div className='max-w-screen-xl mx-auto py-10 px-4 text-center'>
-        <h1 className='font-bold text-[#E0E0E0] text-3xl md:text-5xl mb-4'>
+        <h1 className='font-bold text-[#E0E0E0] text-4xl md:text-5xl mb-4'>
           About Us
         </h1>
         <p className='text-[#B5B2B2] text-[13px] md:text-xl mb-6'>
@@ -53,7 +53,7 @@ const Second = () => {
   );
 }
 
-export default Second;
+export default About;
 
 const Card = ({ image, title, description }) => {
   return (

@@ -14,7 +14,7 @@ const Hero = () => {
           <li className='p-4' style={{ marginRight: '30px'}}>
             <link rel="stylesheet" href="" /><HashLink smooth to='/#Aboutus' > About Us </HashLink>
           </li>
-          <li className='p-4' style={{ marginRight: '30px'}}>Roadmap</li>
+          <li className='p-4' style={{ marginRight: '30px'}}><HashLink smooth to='/#Process' > Process </HashLink></li>
           <li className='p-4' style={{ marginRight: '30px'}}>Careers</li>
           <li className='p-4'><HashLink smooth to='/#Contact' > Contact </HashLink></li>
         </ul>

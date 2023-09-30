@@ -1,14 +1,16 @@
 import React from 'react';
-import First from '../components/First';
-import Second from '../components/Second';
-import Third from '../components/Third';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Process from '../components/Process';
 
 function Homepage() {
   return (
     <div>
-      <First/>
-      <Second/>
-      <Third/>
+      <Hero/>
+      <About/>
+      <Process/>
+      <Contact/>
     </div>
   );
 }

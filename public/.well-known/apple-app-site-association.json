@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "9AMKCYL733.com.pandaanalytics.cocoofficial",
+        "components": [
+          {
+            "/":"/transaction_success",
+            "comment": "Matches any URL whose fragment equals transaction_success"
+          },
+          {
+            "/": "/transaction_failed",
+            "comment": "Matches any URL whose fragment equals transaction_failed"
+          }
+        ]
+      }
+    ]
+  }
+}

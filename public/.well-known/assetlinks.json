@@ -1,0 +1,16 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.pandaanalytics.cocoofficial",
+            "sha256_cert_fingerprints": [
+                "4F:A9:DB:BE:85:7F:5B:41:4E:C5:75:15:2F:95:A4:9D:4E:64:1A:4F:7E:F2:91:2C:F0:34:FA:EC:D3:C6:94:01"
+            ]
+        },
+        "host": "pandaanalytics.nl",
+        "path": ["/transaction_success.html", "/transaction_failed.html"]
+    }
+]
